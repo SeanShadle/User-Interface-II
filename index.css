@@ -138,3 +138,38 @@ footer a:hover{
     background-color: white;
     transition: 1.5s;
 }
+
+/*-----------------Media Queries-----------------*/
+
+@media (max-width:800px){
+    .mainBody{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgContainer{
+        flex-direction: column;
+        width:50%;
+    }
+
+    .projectInfo{
+        order: -1;
+    }
+
+    div.projectInfo{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){
+    .mainBody{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgContainer{
+        width: 75%;
+    }
+}
