@@ -185,13 +185,26 @@ footer a:hover{
         text-align: center;
     }
     
+
+
     .mainBody{
         display: flex;
+        flex-flow: row wrap;
         align-items: center;
-        flex-direction: column;
     }
 
     .imgContainer{
-        width: 75%;
+        display:flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: center;
     }
+
+    .imgContainer img{
+        width:40%;
+        height: 20rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
 }
