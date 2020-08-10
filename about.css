@@ -214,3 +214,13 @@ footer a:hover{
         margin-top: 3rem;
     }
 }
+
+@media (max-width: 360px){
+    .headerText p{
+        font-size: .75rem;
+    }
+
+    .aboutBody p{
+        font-size: .75rem;
+    }
+}
